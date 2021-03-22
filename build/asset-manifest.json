@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/trydo/static/css/main.22f2c18a.chunk.css",
+    "main.js": "/trydo/static/js/main.bf032dc8.chunk.js",
+    "main.js.map": "/trydo/static/js/main.bf032dc8.chunk.js.map",
+    "runtime~main.js": "/trydo/static/js/runtime~main.a657da8a.js",
+    "runtime~main.js.map": "/trydo/static/js/runtime~main.a657da8a.js.map",
+    "static/css/2.a44debfe.chunk.css": "/trydo/static/css/2.a44debfe.chunk.css",
+    "static/js/2.c12cebc5.chunk.js": "/trydo/static/js/2.c12cebc5.chunk.js",
+    "static/js/2.c12cebc5.chunk.js.map": "/trydo/static/js/2.c12cebc5.chunk.js.map",
+    "index.html": "/trydo/index.html",
+    "precache-manifest.68ea8548ce193ee4d1967b5cc8bb0e94.js": "/trydo/precache-manifest.68ea8548ce193ee4d1967b5cc8bb0e94.js",
+    "service-worker.js": "/trydo/service-worker.js",
+    "static/css/2.a44debfe.chunk.css.map": "/trydo/static/css/2.a44debfe.chunk.css.map",
+    "static/css/main.22f2c18a.chunk.css.map": "/trydo/static/css/main.22f2c18a.chunk.css.map",
+    "static/media/index.scss": "/trydo/static/media/slick.f97e3bbf.svg"
+  }
+}
