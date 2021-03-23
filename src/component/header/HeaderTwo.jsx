@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import {
   FaTwitter,
   FaInstagram,
@@ -57,15 +57,19 @@ class Header extends Component {
             <nav className="mainmenunav d-lg-block ml--50">
               <ul className="mainmenu">
                 <li>
-                  <Link to="aboutme" href="#" className="nav-link">
+                  <Link to="aboutme" offset={-60}>
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link to="projects">Projects</Link>
+                  <Link to="projects" offset={-30}>
+                    Projects
+                  </Link>
                 </li>
                 <li>
-                  <Link to="contactme">Contact</Link>
+                  <Link to="contactme" offset={-30}>
+                    Contact
+                  </Link>
                 </li>
               </ul>
             </nav>
