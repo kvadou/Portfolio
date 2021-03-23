@@ -20,8 +20,7 @@ const SocialShare = [
 class Header extends Component {
   constructor(props) {
     super(props);
-    this.menuTrigger = this.menuTrigger.bind(this);
-    this.CLoseMenuTrigger = this.CLoseMenuTrigger.bind(this);
+
     //  this.subMetuTrigger = this.subMetuTrigger.bind(this);
     window.addEventListener("load", function () {
       console.log("All assets are loaded");
@@ -47,33 +46,8 @@ class Header extends Component {
         };
       }
     }
-    const { logo, color = "default-color" } = this.props;
-    let logoUrl;
-    if (logo === "light") {
-      logoUrl = (
-        <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />
-      );
-    } else if (logo === "dark") {
-      logoUrl = (
-        <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />
-      );
-    } else if (logo === "symbol-dark") {
-      logoUrl = (
-        <img
-          src="/assets/images/logo/logo-symbol-dark.png"
-          alt="Digital Agency"
-        />
-      );
-    } else if (logo === "symbol-light") {
-      logoUrl = (
-        <img
-          src="/assets/images/logo/logo-symbol-light.png"
-          alt="Digital Agency"
-        />
-      );
-    } else {
-      logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
-    }
+    const { color = "default-color" } = this.props;
+
     return (
       <header
         className={`header-area header-style-two header--transparent ${color}`}
@@ -83,13 +57,15 @@ class Header extends Component {
             <nav className="mainmenunav d-lg-block ml--50">
               <ul className="mainmenu">
                 <li>
-                  <Link to="/">About</Link>
+                  <Link to="aboutme" href="#" className="nav-link">
+                    About
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/pages">Projects</Link>
+                  <Link to="projects">Projects</Link>
                 </li>
                 <li>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="contactme">Contact</Link>
                 </li>
               </ul>
             </nav>
