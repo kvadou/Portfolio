@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "01e3e93601bc8f7ac8a461bacfe0c0fd",
+    "revision": "ed2406848f8e534842d36d15c69f95f8",
     "url": "/trydo/index.html"
   },
   {
-    "revision": "ec13f688de1c15aa2f68",
-    "url": "/trydo/static/css/2.a44debfe.chunk.css"
+    "revision": "003ebf9be762f482d7c8",
+    "url": "/trydo/static/css/2.3b81d298.chunk.css"
   },
   {
-    "revision": "b7ce72a4b27dec14f18a",
+    "revision": "cecaef3015153af703a0",
     "url": "/trydo/static/css/main.77ea8fd2.chunk.css"
   },
   {
-    "revision": "ec13f688de1c15aa2f68",
-    "url": "/trydo/static/js/2.54743edd.chunk.js"
+    "revision": "003ebf9be762f482d7c8",
+    "url": "/trydo/static/js/2.a1ad043b.chunk.js"
   },
   {
-    "revision": "b7ce72a4b27dec14f18a",
-    "url": "/trydo/static/js/main.139e0fe4.chunk.js"
+    "revision": "cecaef3015153af703a0",
+    "url": "/trydo/static/js/main.a6d39ac4.chunk.js"
   },
   {
     "revision": "1e4299c178b0ee518a5b",

@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/trydo/static/css/main.77ea8fd2.chunk.css",
-    "main.js": "/trydo/static/js/main.139e0fe4.chunk.js",
-    "main.js.map": "/trydo/static/js/main.139e0fe4.chunk.js.map",
+    "main.js": "/trydo/static/js/main.a6d39ac4.chunk.js",
+    "main.js.map": "/trydo/static/js/main.a6d39ac4.chunk.js.map",
     "runtime~main.js": "/trydo/static/js/runtime~main.a657da8a.js",
     "runtime~main.js.map": "/trydo/static/js/runtime~main.a657da8a.js.map",
-    "static/css/2.a44debfe.chunk.css": "/trydo/static/css/2.a44debfe.chunk.css",
-    "static/js/2.54743edd.chunk.js": "/trydo/static/js/2.54743edd.chunk.js",
-    "static/js/2.54743edd.chunk.js.map": "/trydo/static/js/2.54743edd.chunk.js.map",
+    "static/css/2.3b81d298.chunk.css": "/trydo/static/css/2.3b81d298.chunk.css",
+    "static/js/2.a1ad043b.chunk.js": "/trydo/static/js/2.a1ad043b.chunk.js",
+    "static/js/2.a1ad043b.chunk.js.map": "/trydo/static/js/2.a1ad043b.chunk.js.map",
     "index.html": "/trydo/index.html",
-    "precache-manifest.5bc46497c04290a4e0286f7c30d11335.js": "/trydo/precache-manifest.5bc46497c04290a4e0286f7c30d11335.js",
+    "precache-manifest.83138badb40c61fad1c6f20a13275f32.js": "/trydo/precache-manifest.83138badb40c61fad1c6f20a13275f32.js",
     "service-worker.js": "/trydo/service-worker.js",
-    "static/css/2.a44debfe.chunk.css.map": "/trydo/static/css/2.a44debfe.chunk.css.map",
+    "static/css/2.3b81d298.chunk.css.map": "/trydo/static/css/2.3b81d298.chunk.css.map",
     "static/css/main.77ea8fd2.chunk.css.map": "/trydo/static/css/main.77ea8fd2.chunk.css.map",
     "static/media/index.scss": "/trydo/static/media/slick.f97e3bbf.svg"
   }
