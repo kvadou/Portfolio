@@ -1,35 +1,42 @@
 import React, { Component } from "react";
+import { FaGithubAlt } from "react-icons/fa";
 
 const PortfolioListContent = [
   {
     image: "image-1",
-    category: "Development",
     title: "Matcht",
+    url: "https://matcht1.herokuapp.com/",
+    git: "https://github.com/kvadou/Matcht",
   },
   {
     image: "image-2",
-    category: "Development",
     title: "Yoke",
+    url: "https://yokee.herokuapp.com/",
+    git: "https://github.com/kvadou/Yoke2",
   },
   {
     image: "image-3",
-    category: "Development",
     title: "Budget Tracker",
+    url: "https://budget-tr4cker.herokuapp.com/",
+    git: "https://github.com/kvadou/Budget-Tracker",
   },
   {
     image: "image-4",
-    category: "Development",
     title: "Workout Tracker",
+    url: "https://w0rk0ut-tracker.herokuapp.com/",
+    git: "https://github.com/kvadou/workout-tracker",
   },
   {
     image: "image-5",
-    category: "Development",
     title: "Eat-Da-Burger",
+    url: "https://eat-da-b0rger.herokuapp.com/",
+    git: "https://github.com/kvadou/burger",
   },
   {
     image: "image-6",
-    category: "Development",
     title: "Note Taker",
+    url: "https://n0te-taker.herokuapp.com/",
+    git: "https://github.com/kvadou/Note-Taker",
   },
 ];
 
@@ -48,13 +55,17 @@ class PortfolioList extends Component {
               </div>
               <div className="content">
                 <div className="inner">
-                  <p>{value.category}</p>
                   <h4>
-                    <a href="/portfolio-details">{value.title}</a>
+                    <a href={value.git}>{value.title}</a>
                   </h4>
+                  <div className="git-button">
+                    <h2>
+                      <FaGithubAlt> href:{value.git}</FaGithubAlt>
+                    </h2>
+                  </div>
                   <div className="portfolio-button">
-                    <a className="rn-btn" href="https://github.com/kvadou">
-                      View Details
+                    <a className="rn-btn" href={value.url}>
+                      View Site
                     </a>
                   </div>
                 </div>
