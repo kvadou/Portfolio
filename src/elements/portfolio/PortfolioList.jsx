@@ -66,7 +66,15 @@ class PortfolioList extends Component {
                   </h4>
                   <div className="git-button">
                     <h2>
-                      <FaGithubAlt> href:{value.git}</FaGithubAlt>
+                      <a
+                        href={value.git}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        hover={false}
+                        banner={true}
+                      >
+                        <FaGithubAlt />
+                      </a>
                     </h2>
                   </div>
                   <div className="portfolio-button">
