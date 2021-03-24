@@ -10,7 +10,12 @@ import {
 import { FiX, FiMenu } from "react-icons/fi";
 
 const SocialShare = [
-  { Social: <FaGithub />, link: "https://github.com/kvadou" },
+  {
+    Social: <FaGithub />,
+    link: "https://github.com/kvadou",
+    target: "_blank",
+    rel: "noopener noreferrer",
+  },
   { Social: <FaFacebookF />, link: "https://www.facebook.com/DPKlol/" },
   { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/dougkvamme/" },
   { Social: <FaInstagram />, link: "https://www.instagram.com/dpkalltheway/" },

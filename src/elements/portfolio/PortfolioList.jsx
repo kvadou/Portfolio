@@ -56,7 +56,13 @@ class PortfolioList extends Component {
               <div className="content">
                 <div className="inner">
                   <h4>
-                    <a href={value.git}>{value.title}</a>
+                    <a
+                      href={value.git}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {value.title}
+                    </a>
                   </h4>
                   <div className="git-button">
                     <h2>
@@ -64,7 +70,12 @@ class PortfolioList extends Component {
                     </h2>
                   </div>
                   <div className="portfolio-button">
-                    <a className="rn-btn" href={value.url}>
+                    <a
+                      className="rn-btn"
+                      href={value.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       View Site
                     </a>
                   </div>
