@@ -1,8 +1,8 @@
 {
-  "name": "trydo",
+  "name": "Doug Kvamme Portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kvadou.github.io/trydo/",
+  "homepage": "https://dpkportfolio.herokuapp.com/",
   "basename": "/",
   "dependencies": {
     "@babel/core": "7.4.3",

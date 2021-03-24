@@ -8,7 +8,6 @@ import "./index.scss";
 import PersonalPortfolio from "./home/PersonalPortfolio";
 
 // Element Layout
-import PortfolioDetails from "./elements/PortfolioDetails";
 import error404 from "./elements/error404";
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
@@ -24,18 +23,6 @@ class Root extends Component {
             path={`${process.env.PUBLIC_URL}/`}
             component={PersonalPortfolio}
           />
-          <Route
-            exact
-            path={`${process.env.PUBLIC_URL}/personal-portfolio`}
-            component={PersonalPortfolio}
-          />
-          {/* Element Layot */}
-          <Route
-            exact
-            path={`${process.env.PUBLIC_URL}/portfolio-details`}
-            component={PortfolioDetails}
-          />
-          {/* Blocks Elements  */}
           <Route path={`${process.env.PUBLIC_URL}/404`} component={error404} />
           <Route component={error404} />
         </Switch>

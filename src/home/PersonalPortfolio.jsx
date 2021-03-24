@@ -26,7 +26,7 @@ class PersonalPortfolio extends Component {
         "My name is Doug Kvamme and I currently work as a Talent Advocate at Nerdery in Edina, MN. I have 7 years professional experience as a Technical Recruiter, primarily focused on hiring Software Engineers in the Twin Cities metro area. I am in the process of transitioning my career into software development and this portfolio site is intended to showcase the projects I have worked on thus far. Check out the links below and connect with me online!";
     return (
       <Fragment>
-        <Helmet pageTitle="Personal Portfolio" />
+        <Helmet pageTitle="Doug Kvamme" />
 
         <HeaderTwo logo="symbol-dark" color="color-black" />
 
