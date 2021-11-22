@@ -51,9 +51,16 @@ class TabsTwo extends Component {
                       <ul>
                         <li>
                           <a href="/service">
+                            Senior Talent Acquisition Partner
+                            <span> - Electric</span>
+                          </a>{" "}
+                          2021 - Current
+                        </li>
+                        <li>
+                          <a href="/service">
                             Talent Advocate<span> - Nerdery</span>
                           </a>{" "}
-                          2017 - Current
+                          2017 - 2021
                         </li>
                         <li>
                           <a href="/service">
