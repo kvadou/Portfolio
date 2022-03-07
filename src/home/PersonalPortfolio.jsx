@@ -23,7 +23,7 @@ class PersonalPortfolio extends Component {
   render() {
     let title = "About Me",
       description =
-        "My name is Doug Kvamme and I currently work as a Senior Talent Acquisition Partner at Electric, a tech startup based in New York City. I have 8 years professional experience as a Technical Recruiter, primarily focused on hiring Software Engineers all across the country. I am in the process of expanding my professional skills in software development and this portfolio site is intended to showcase the projects I have worked on thus far. Check out the links below and connect with me online!";
+        "My name is Doug Kvamme and I currently work as a Leadership Recruiter at Meta. I have 8 years professional experience as a Technical Recruiter, primarily focused on hiring Software Engineers all across the country. I am in the process of expanding my professional skills in software development and this portfolio site is intended to showcase the projects I have worked on thus far. Check out the links below and connect with me online!";
     return (
       <Fragment>
         <Helmet pageTitle="Doug Kvamme" />

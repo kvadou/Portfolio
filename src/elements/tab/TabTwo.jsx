@@ -49,25 +49,25 @@ class TabsTwo extends Component {
                   <TabPanel>
                     <div className="single-tab-content">
                       <ul>
+                      <li>
+                          <a href="/service">
+                          Leadership Recruiter, Specialized SWE
+                            <span> - Meta</span>
+                          </a>{" "}
+                          2022 - Current
+                        </li>
                         <li>
                           <a href="/service">
                             Senior Talent Acquisition Partner
                             <span> - Electric</span>
                           </a>{" "}
-                          2021 - Current
+                          2021 - 2022
                         </li>
                         <li>
                           <a href="/service">
                             Talent Advocate<span> - Nerdery</span>
                           </a>{" "}
                           2017 - 2021
-                        </li>
-                        <li>
-                          <a href="/service">
-                            Recruiting Manager
-                            <span> - Robert Half Technology</span>
-                          </a>{" "}
-                          2014 - 2017
                         </li>
                       </ul>
                     </div>
